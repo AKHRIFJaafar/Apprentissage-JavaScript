@@ -1,0 +1,35 @@
+<DOCTYPE html>
+    <html>
+
+    <head>
+        <style>
+            #continer {
+                height: 400px;
+                width: 400px;
+                padding: 30px;
+                background-color: burlywood;
+            }
+            
+            #boot {
+                padding-top: 20%;
+                padding-left: 25%;
+            }
+        </style>
+
+
+    </head>
+
+    <body>
+        <div id="continer">
+
+            <form>
+                <label>NOM: </label>
+                <input type="text" id="nom" required>
+                <div id="boot">
+                    <input type="button" value="Ok" onclick="alert(document.getElementById( 'nom').value); ">
+                </div>
+            </form>
+        </div>
+    </body>
+
+    </html>
